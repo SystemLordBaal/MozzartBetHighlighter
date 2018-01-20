@@ -1,0 +1,17 @@
+{
+  "name": "Mozzart Bet Highlighter",
+  "description": "Mark The Winners",
+  "version": "1.0",
+  "permissions": [
+    "activeTab"
+  ],
+  "author":"GreatSystemLordBaal",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Mark the Winners"
+  },
+  "manifest_version": 2
+}
